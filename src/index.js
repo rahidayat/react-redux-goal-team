@@ -7,6 +7,7 @@ import App from './components/App'
 import SignIn from './components/SignIn'
 import SignUp from './components/SignUp'
 
+// https://firebase.google.com/docs/auth/web/start
 firebaseApp.auth().onAuthStateChanged(user => {
   if (user) {
     console.log('user has signed in or signed up', user);
