@@ -1,8 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import ReactDODM from 'react-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import App from './components/App'
+import SignIn from './components/SignIn'
+import SignUp from './components/SignUp'
+
+ReactDODM.render(
+  <div>App</div>, document.getElementById('root')
+)
